@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40C083762DA4488E0071C462 /* DesafioNetflixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C083752DA4488E0071C462 /* DesafioNetflixApp.swift */; };
+		40C083782DA4488E0071C462 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C083772DA4488E0071C462 /* ContentView.swift */; };
+		40C0837A2DA448900071C462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C083792DA448900071C462 /* Assets.xcassets */; };
+		40C0837D2DA448900071C462 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C0837C2DA448900071C462 /* Preview Assets.xcassets */; };
+		40C083872DA448910071C462 /* DesafioNetflixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C083862DA448910071C462 /* DesafioNetflixTests.swift */; };
+		40C083912DA448910071C462 /* DesafioNetflixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C083902DA448910071C462 /* DesafioNetflixUITests.swift */; };
+		40C083932DA448910071C462 /* DesafioNetflixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C083922DA448910071C462 /* DesafioNetflixUITestsLaunchTests.swift */; };
+		40C083A22DA448F60071C462 /* Tela2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C083A12DA448F60071C462 /* Tela2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40C083832DA448910071C462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40C0836A2DA4488E0071C462 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C083712DA4488E0071C462;
+			remoteInfo = DesafioNetflix;
+		};
+		40C0838D2DA448910071C462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40C0836A2DA4488E0071C462 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C083712DA4488E0071C462;
+			remoteInfo = DesafioNetflix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40C083722DA4488E0071C462 /* DesafioNetflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioNetflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C083752DA4488E0071C462 /* DesafioNetflixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioNetflixApp.swift; sourceTree = "<group>"; };
+		40C083772DA4488E0071C462 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		40C083792DA448900071C462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40C0837C2DA448900071C462 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40C083822DA448910071C462 /* DesafioNetflixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioNetflixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C083862DA448910071C462 /* DesafioNetflixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioNetflixTests.swift; sourceTree = "<group>"; };
+		40C0838C2DA448910071C462 /* DesafioNetflixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioNetflixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40C083902DA448910071C462 /* DesafioNetflixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioNetflixUITests.swift; sourceTree = "<group>"; };
+		40C083922DA448910071C462 /* DesafioNetflixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioNetflixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		40C083A12DA448F60071C462 /* Tela2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40C0836F2DA4488E0071C462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C0837F2DA448910071C462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C083892DA448910071C462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40C083692DA4488E0071C462 = {
+			isa = PBXGroup;
+			children = (
+				40C083742DA4488E0071C462 /* DesafioNetflix */,
+				40C083852DA448910071C462 /* DesafioNetflixTests */,
+				40C0838F2DA448910071C462 /* DesafioNetflixUITests */,
+				40C083732DA4488E0071C462 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40C083732DA4488E0071C462 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40C083722DA4488E0071C462 /* DesafioNetflix.app */,
+				40C083822DA448910071C462 /* DesafioNetflixTests.xctest */,
+				40C0838C2DA448910071C462 /* DesafioNetflixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40C083742DA4488E0071C462 /* DesafioNetflix */ = {
+			isa = PBXGroup;
+			children = (
+				40C083752DA4488E0071C462 /* DesafioNetflixApp.swift */,
+				40C083772DA4488E0071C462 /* ContentView.swift */,
+				40C083792DA448900071C462 /* Assets.xcassets */,
+				40C0837B2DA448900071C462 /* Preview Content */,
+				40C083A12DA448F60071C462 /* Tela2.swift */,
+			);
+			path = DesafioNetflix;
+			sourceTree = "<group>";
+		};
+		40C0837B2DA448900071C462 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				40C0837C2DA448900071C462 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		40C083852DA448910071C462 /* DesafioNetflixTests */ = {
+			isa = PBXGroup;
+			children = (
+				40C083862DA448910071C462 /* DesafioNetflixTests.swift */,
+			);
+			path = DesafioNetflixTests;
+			sourceTree = "<group>";
+		};
+		40C0838F2DA448910071C462 /* DesafioNetflixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40C083902DA448910071C462 /* DesafioNetflixUITests.swift */,
+				40C083922DA448910071C462 /* DesafioNetflixUITestsLaunchTests.swift */,
+			);
+			path = DesafioNetflixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40C083712DA4488E0071C462 /* DesafioNetflix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C083962DA448910071C462 /* Build configuration list for PBXNativeTarget "DesafioNetflix" */;
+			buildPhases = (
+				40C0836E2DA4488E0071C462 /* Sources */,
+				40C0836F2DA4488E0071C462 /* Frameworks */,
+				40C083702DA4488E0071C462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioNetflix;
+			productName = DesafioNetflix;
+			productReference = 40C083722DA4488E0071C462 /* DesafioNetflix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40C083812DA448910071C462 /* DesafioNetflixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C083992DA448910071C462 /* Build configuration list for PBXNativeTarget "DesafioNetflixTests" */;
+			buildPhases = (
+				40C0837E2DA448910071C462 /* Sources */,
+				40C0837F2DA448910071C462 /* Frameworks */,
+				40C083802DA448910071C462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40C083842DA448910071C462 /* PBXTargetDependency */,
+			);
+			name = DesafioNetflixTests;
+			productName = DesafioNetflixTests;
+			productReference = 40C083822DA448910071C462 /* DesafioNetflixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40C0838B2DA448910071C462 /* DesafioNetflixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C0839C2DA448910071C462 /* Build configuration list for PBXNativeTarget "DesafioNetflixUITests" */;
+			buildPhases = (
+				40C083882DA448910071C462 /* Sources */,
+				40C083892DA448910071C462 /* Frameworks */,
+				40C0838A2DA448910071C462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40C0838E2DA448910071C462 /* PBXTargetDependency */,
+			);
+			name = DesafioNetflixUITests;
+			productName = DesafioNetflixUITests;
+			productReference = 40C0838C2DA448910071C462 /* DesafioNetflixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40C0836A2DA4488E0071C462 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					40C083712DA4488E0071C462 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					40C083812DA448910071C462 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 40C083712DA4488E0071C462;
+					};
+					40C0838B2DA448910071C462 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 40C083712DA4488E0071C462;
+					};
+				};
+			};
+			buildConfigurationList = 40C0836D2DA4488E0071C462 /* Build configuration list for PBXProject "DesafioNetflix" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40C083692DA4488E0071C462;
+			productRefGroup = 40C083732DA4488E0071C462 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40C083712DA4488E0071C462 /* DesafioNetflix */,
+				40C083812DA448910071C462 /* DesafioNetflixTests */,
+				40C0838B2DA448910071C462 /* DesafioNetflixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40C083702DA4488E0071C462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C0837D2DA448900071C462 /* Preview Assets.xcassets in Resources */,
+				40C0837A2DA448900071C462 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C083802DA448910071C462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C0838A2DA448910071C462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40C0836E2DA4488E0071C462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C083782DA4488E0071C462 /* ContentView.swift in Sources */,
+				40C083A22DA448F60071C462 /* Tela2.swift in Sources */,
+				40C083762DA4488E0071C462 /* DesafioNetflixApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C0837E2DA448910071C462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C083872DA448910071C462 /* DesafioNetflixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40C083882DA448910071C462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C083912DA448910071C462 /* DesafioNetflixUITests.swift in Sources */,
+				40C083932DA448910071C462 /* DesafioNetflixUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40C083842DA448910071C462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40C083712DA4488E0071C462 /* DesafioNetflix */;
+			targetProxy = 40C083832DA448910071C462 /* PBXContainerItemProxy */;
+		};
+		40C0838E2DA448910071C462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40C083712DA4488E0071C462 /* DesafioNetflix */;
+			targetProxy = 40C0838D2DA448910071C462 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40C083942DA448910071C462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40C083952DA448910071C462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40C083972DA448910071C462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DesafioNetflix/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = igor.amaral.DesafioNetflix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40C083982DA448910071C462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DesafioNetflix/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = igor.amaral.DesafioNetflix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40C0839A2DA448910071C462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = igor.amaral.DesafioNetflixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesafioNetflix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DesafioNetflix";
+			};
+			name = Debug;
+		};
+		40C0839B2DA448910071C462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = igor.amaral.DesafioNetflixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesafioNetflix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DesafioNetflix";
+			};
+			name = Release;
+		};
+		40C0839D2DA448910071C462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = igor.amaral.DesafioNetflixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DesafioNetflix;
+			};
+			name = Debug;
+		};
+		40C0839E2DA448910071C462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = igor.amaral.DesafioNetflixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DesafioNetflix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40C0836D2DA4488E0071C462 /* Build configuration list for PBXProject "DesafioNetflix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C083942DA448910071C462 /* Debug */,
+				40C083952DA448910071C462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C083962DA448910071C462 /* Build configuration list for PBXNativeTarget "DesafioNetflix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C083972DA448910071C462 /* Debug */,
+				40C083982DA448910071C462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C083992DA448910071C462 /* Build configuration list for PBXNativeTarget "DesafioNetflixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C0839A2DA448910071C462 /* Debug */,
+				40C0839B2DA448910071C462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C0839C2DA448910071C462 /* Build configuration list for PBXNativeTarget "DesafioNetflixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40C0839D2DA448910071C462 /* Debug */,
+				40C0839E2DA448910071C462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40C0836A2DA4488E0071C462 /* Project object */;
+}
